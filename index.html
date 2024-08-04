@@ -15,10 +15,10 @@
 
 <body>
     <div class="header-container">
-        <header class="header">
+        <header class="header" id="headbar">
             <a href="#" class="logo">Digital Upgrade, LLC.</a>
-
-            <nav class="navbar">
+            <div class="hamburger">&#9776;</div>
+            <nav class="navbar" id="nav">
                 <a href="construction.html" class="active">Home</a>
                 <a href="construction.html">Services</a>
                 <a href="construction.html">Blog</a>
@@ -34,11 +34,11 @@
                     class="underline">Right</span>
             </h1>
             <h2>Boost your online presence and reach more customers with Digital Upgrade, LLC</h2>
-            <button href="construction.html" class="learn-btn" role="button">Learn More</button>
+            <button class="learn-btn" role="button" onclick="scroll(0, 100);">Learn More</button>
         </div>
     </div>
 
-    <div class="main-content">
+    <div class="main-content" id="scrollToMain">
         <div class="services-section">
             <h2 class="underline">Our Services</h2>
             <div class="services-container">
@@ -79,7 +79,7 @@
         <div class="blog-section">
             <div class="blog-content">
                 <div class="blog-image">
-                    <img src="Images/placeholder.jpg" alt="Weekly Blogs" class="placeholder">
+                    <img src="Images/placeholder.jpg" alt="Weekly Blogs" class="placeholder" id="blogimg">
                 </div>
                 <div class="blog-text">
                     <h2>Weekly Blogs</h2>
@@ -136,7 +136,6 @@
                 <ul>
                     <li><i class="fas fa-envelope"></i> Email: contact@digitalupgrade.net</li>
                     <li><i class="fas fa-phone"></i> Phone: (000) 000-0000</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Address: 2606 Castle Place, La Crosse WI, 54601</li>
                 </ul>
             </div>
             <div class="social-links">
